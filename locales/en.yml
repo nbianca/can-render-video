@@ -1,0 +1,3 @@
+en:
+  video:
+    cannot_render: This video cannot be rendered because your browser does not support the codec.
