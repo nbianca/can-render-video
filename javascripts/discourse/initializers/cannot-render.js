@@ -10,7 +10,7 @@ function showVideoNotice(video, videoContainer) {
   const notice = document.createElement("div");
   notice.className = "notice";
   notice.innerHTML =
-    iconHTML("exclamation-triangle") +
+    iconHTML("triangle-exclamation") +
     " " +
     I18n.t(themePrefix("video.cannot_render"));
   videoContainer.appendChild(notice);
